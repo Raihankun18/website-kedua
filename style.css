@@ -1,0 +1,314 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.6)),  
+        url(/city.png);
+    background-size: cover;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+}
+
+.wrap-head {        
+    background-color: #053B50;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 5px ;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 10px #0d3f53;
+}
+
+.nama-brand a {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #F9E0BB;
+    font-family:monospace;
+    padding-left: 40px;
+}
+
+.nama-brand a:hover {
+    font-size: 25px;
+    transition: all .3s ease-in-out;
+}
+
+.nama-brand h1 {
+    font-weight: 800;
+}
+
+.nama-brand h1:nth-child(2) {
+    font-weight: 300;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.navigation ul li {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    display: flex;
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    background-color: #F9E0BB;
+    border-radius: 10px;
+    color: #5c3125 !important;
+}
+
+.navigation ul li a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.gallery {
+    background-color: #F9E0BB;
+    border-radius: 10px;
+}
+
+.gallery a {
+    color: #5c3125 !important;
+}
+
+.bgpertama {
+    background-image: url(city.png);
+    background-size: cover;
+    height: 300px;
+    margin-top: 30px;
+    background-position: 0 -2000px;
+    box-shadow: 1px 3px 10px;
+}
+
+.bgpertama:hover {
+    background-position: 0 -2700px;
+    transition: 1s ease-in-out;
+}
+
+
+.wrapper2 {
+    color: white;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+article {
+    width: 60%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+article h1 {
+    height: 40px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 10px rgb(17, 42, 184);
+}
+
+article p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+article h1:hover {
+    font-size: 40px;
+    font-weight: 600;
+    transition: .6s ease-in-out;
+    color: #f7f7f7;
+    text-shadow: 1px 1px 10px rgb(56, 242, 248);
+}
+
+.side {
+    width: 38%;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+img {
+    height: 200px;
+    width:220px;
+    float: left;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    box-shadow: 3px 3px 7px rgb(99, 99, 141);
+}
+
+img:hover {
+    height: 220px;
+    width:235px;
+    transition: .5s ease-in-out;
+}
+
+.side h1 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    color: #fbf8ff;
+
+}
+
+.side aside {
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+}
+
+footer {
+    box-shadow: 0px -1px 10px #0d3f53;
+    background-color: #053B50;
+    height: 220px;
+    box-sizing: border-box;
+}
+
+.foot1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot1 section {
+    margin-top: 20px;
+    display: inline-block;
+    float: left;
+    width: 24%;
+    height: 200px;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.foot1 h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.foot1 section a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot1 p {
+    font-size: 9px;
+    line-height: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: rgb(209, 201, 201);
+}
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ .cf {
+     *zoom: 1;}
