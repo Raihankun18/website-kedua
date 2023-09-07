@@ -52,6 +52,10 @@ table {
 	border-spacing: 0;
 }
 
+.container {
+    position: relative;
+}
+
 header {
 }
 
@@ -204,6 +208,7 @@ article h1:hover {
 }
 
 img {
+    position: relative;
     height: 200px;
     width:220px;
     float: left;
@@ -211,6 +216,20 @@ img {
     margin-left: 0px;
     margin-top: 0px;
     box-shadow: 3px 3px 7px rgb(99, 99, 141);
+}
+
+.klikhere {
+    position: absolute;
+    width:25px;
+    height: 25px;
+    top: 380px;
+    right: 10px;
+    background-image: url(/tap.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    border-radius: 50%;
+    opacity: 0.5;
 }
 
 img:hover {
